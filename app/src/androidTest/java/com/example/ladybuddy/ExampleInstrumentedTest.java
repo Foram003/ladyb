@@ -1,4 +1,4 @@
-package com.example.she;
+package com.example.ladybuddy;
 
 import android.content.Context;
 

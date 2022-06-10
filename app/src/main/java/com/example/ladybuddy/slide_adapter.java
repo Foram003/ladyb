@@ -1,4 +1,4 @@
-package com.example.she;
+package com.example.ladybuddy;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 
 public class slide_adapter extends PagerAdapter {
     Context context;

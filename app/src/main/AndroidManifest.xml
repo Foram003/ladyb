@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.she">
+    package="com.example.ladybuddy">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -20,38 +20,38 @@
         android:theme="@style/AppTheme.NoActionBar">
 
         <receiver
-            android:name=".NotificationReceiver"
+            android:name="com.example.ladybuddy.NotificationReceiver"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name=".Howtouse" />
+            android:name="com.example.ladybuddy.Howtouse" />
         <activity
-            android:name=".emergency"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
-        <activity
-            android:name=".ViewContacts"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
-        <activity android:name=".siren"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
-        <activity android:name=".helpline"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
-        <activity android:name=".addrelative"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
-        <activity android:name=".login"
+            android:name="com.example.ladybuddy.emergency"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"/>
         <activity
-            android:name=".Registration"
+            android:name="com.example.ladybuddy.ViewContacts"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity android:name="com.example.ladybuddy.siren"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity android:name="com.example.ladybuddy.helpline"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity android:name="com.example.ladybuddy.addrelative"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity android:name="com.example.ladybuddy.login"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"/>
         <activity
-            android:name=".splashh"
+            android:name="com.example.ladybuddy.Registration"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity
+            android:name="com.example.ladybuddy.splashh"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">
             <intent-filter>
@@ -61,7 +61,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ladybuddy.MainActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"/>
     </application>

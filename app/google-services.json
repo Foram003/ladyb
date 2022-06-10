@@ -1,42 +1,62 @@
 {
   "project_info": {
-    "project_number": "785751465044",
-    "firebase_url": "https://shefirebaseproject-3dc43.firebaseio.com",
-    "project_id": "shefirebaseproject-3dc43",
-    "storage_bucket": "shefirebaseproject-3dc43.appspot.com"
+    "project_number": "731792135212",
+    "project_id": "ladybuddy-2c7fd",
+    "storage_bucket": "ladybuddy-2c7fd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:785751465044:android:2e4c060a0f12fa055a61c1",
+        "mobilesdk_app_id": "1:731792135212:android:723aadd7042076f1896d89",
         "android_client_info": {
-          "package_name": "com.example.she"
+          "package_name": "com.example.ladybuddy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "785751465044-7ai5pajm99lbspuikgcv7a1a9afe8ha0.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.she",
-            "certificate_hash": "541898084f701a7562b013a5708535a9332d878c"
-          }
-        },
-        {
-          "client_id": "785751465044-87s1fergs14mfu1dnjotm8kkbhsj4jbm.apps.googleusercontent.com",
+          "client_id": "731792135212-8tev4cq1nhdg2u272pkumibij9ug3s7k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBuATRCcUN8-jPwngukzG1chIUeq5FzcXg"
+          "current_key": "AIzaSyDMaAVBAnwTkbIvLiL9MiIAS8EeqtKw4zk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "785751465044-87s1fergs14mfu1dnjotm8kkbhsj4jbm.apps.googleusercontent.com",
+              "client_id": "731792135212-8tev4cq1nhdg2u272pkumibij9ug3s7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731792135212:android:3c3ac6fc3b8385af896d89",
+        "android_client_info": {
+          "package_name": "lady.buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731792135212-8tev4cq1nhdg2u272pkumibij9ug3s7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMaAVBAnwTkbIvLiL9MiIAS8EeqtKw4zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731792135212-8tev4cq1nhdg2u272pkumibij9ug3s7k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
