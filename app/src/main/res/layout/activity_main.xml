@@ -196,38 +196,39 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
         <androidx.cardview.widget.CardView
-            android:id="@+id/card8"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
             android:layout_weight="1"
+            app:cardElevation="6dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="6dp">
+            android:layout_margin="20dp"
+            android:id="@+id/card9">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#ffffff"
-                android:gravity="center"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:background="#ffffff"
                 android:padding="10dp">
 
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@mipmap/logout" />
-
+                    android:src="@drawable/ic_stay_current_portrait_black_24dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Logout"
-                    android:textColor="#000000"
-                    android:textSize="15dp" />
+                    android:text="Register a complain"
+                    android:textSize="15dp"
+                    android:textColor="#000000"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+
+
     </LinearLayout>
 
 
@@ -239,39 +240,9 @@
             android:layout_weight="2"
             android:layout_marginTop="10dp"
             >
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="20dp"
-                android:id="@+id/card9">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:background="#ffffff"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/ic_stay_current_portrait_black_24dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Register a complain"
-                        android:textSize="15dp"
-                        android:textColor="#000000"/>
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card10"
+                android:id="@+id/card8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="20dp"
