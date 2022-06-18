@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-    CardView cv1, cv2,cv3,cv4,cv5,cv6,cv7,cv8;
+    CardView cv1, cv2,cv3,cv4,cv5,cv6,cv7,cv8,cv9;
     FirebaseAuth firebaseAuth;
 
     @Override
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         cv6 = findViewById(R.id.card6);
         cv7 = findViewById(R.id.card7);
         cv8 = findViewById(R.id.card8);
+        cv9=findViewById(R.id.card9);
         firebaseAuth = FirebaseAuth.getInstance();
 
         cv1.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +69,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,Howtouse.class));
             }
         });
+        cv9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,complain.class));
+            }
+        });
+
     }
 
     private void logOut(){
